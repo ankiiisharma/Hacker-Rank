@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void bubbleSort(int*, int arr[n], int n)
+void bubbleSort(int arr[], int n)
 {
     int i,j,temp;
     for(i=0;i<n;i++)
@@ -36,7 +36,7 @@ int main()
     }
     cout<<"SORTED Array is: "<<endl;
 
-    bubbleSort(int*, int n, int arr[n]);
+    bubbleSort(int n, int arr[]);
 
 return 0;
 }
